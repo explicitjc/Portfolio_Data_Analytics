@@ -13,6 +13,8 @@ This project demonstrates how to analyze customer churn using interactive dashbo
 
 ## Dashboard Interactive
 
+![Dashboard](images/Dashboard.png)
+
 Explore the interactive **Tableau dashboard** for a deeper dive into the customer churn analysis.  
 [View the dashboard on Tableau Public](https://public.tableau.com/app/profile/jc.coissard/viz/databel_case_study/DATABELChurnAnalysis)
 
