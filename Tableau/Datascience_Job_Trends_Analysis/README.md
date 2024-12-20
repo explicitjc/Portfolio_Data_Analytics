@@ -10,6 +10,8 @@ This project demonstrates how to analyze job trends and skills in the data scien
 - `README.md`: This file (Markdown format).
 - `DataSearch_Job_Analysis.md`: Detailed case study document (Markdown format).
 
+## Dashboard Interactive
+
 ![Dashboard](images/Dashboard.png)
 
 ## Key Insights & Recommendations
