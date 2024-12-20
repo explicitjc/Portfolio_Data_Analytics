@@ -1,5 +1,4 @@
 # Customer Churn Analysis – Tableau
-![Dashboard](images/Dashboard.png)
 
 **Case study realised on Tableau Public during my Tableau track on DataCamp, leveraging Tableau to analyze customer churn trends. Covers data exploration, dashboard creation, and actionable insights. Includes churn factors related to contract types, geography, and demographics.**
 
@@ -13,6 +12,8 @@ This project demonstrates how to analyze customer churn using interactive dashbo
 - **Tableau_databel-customer-churn-analysis.md**: Detailed case study document (Markdown format).
 
 ## Dashboard Interactive
+
+![Dashboard](images/Dashboard.png)
 
 Explore the interactive **Tableau dashboard** for a deeper dive into the customer churn analysis.  
 [View the dashboard on Tableau Public](https://public.tableau.com/app/profile/jc.coissard/viz/databel_case_study/DATABELChurnAnalysis)
