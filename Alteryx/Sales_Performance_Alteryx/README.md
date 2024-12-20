@@ -14,6 +14,9 @@ An advanced case study realised on Datacamp exercises to analyze sales performan
 - **Regional Performance**: The West region leads in overall profitability, while the South-East excels in clothing sales.
 - **Subcategory Insights**: Printers and Monitors are the top subcategories in terms of profitability.
 
+## Alteryx Workflow
+
+![workflow](images/workflow.png)
 
 ## Next Steps
 - Automate the workflow for real-time reporting.
