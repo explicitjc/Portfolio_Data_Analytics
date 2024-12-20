@@ -1,44 +1,32 @@
-# DataSearch Job Trends Analysis – Tableau
+# Customer Churn Analysis – Tableau
 
-## Summary
-Case study realized on Tableau Public during my Tableau track on DataCamp, focusing on uncovering job trends and skills within the data science field. The analysis explores job postings, salaries, experience levels, and industry trends using Tableau visualizations.
-
----
+**Case study realised on Tableau Public during my Tableau track on DataCamp, leveraging Tableau to analyze customer churn trends. Covers data exploration, dashboard creation, and actionable insights. Includes churn factors related to contract types, geography, and demographics.**
 
 ## Description
-- **Objective:** Analyze job trends in the data science field to identify high-demand roles, salary trends, and sought-after skills.
-- **Tools:** Tableau for interactive visualizations.
-- **Data:** Fictitious dataset created for educational purposes (not shared publicly due to confidentiality restrictions).
+This project demonstrates how to analyze customer churn using interactive dashboards created with Tableau. It focuses on understanding the factors contributing to churn, such as contract types, demographics, and geographic regions, and provides recommendations for reducing churn.
 
----
+**Note:** The dataset used for this analysis cannot be shared publicly due to confidentiality reasons.
 
 ## Project Structure
-- **README.md:** This file.
-- **DataSearch_Job_Analysis.md:** Detailed case study document.
-- **Tableau Dashboard:** Interactive visualization.
+- **readme.md**: This file (Markdown format).
+- **Tableau_databel-customer-churn-analysis.md**: Detailed case study document (Markdown format).
 
----
+## Dashboard Interactive
+
+Explore the interactive **Tableau dashboard** for a deeper dive into the customer churn analysis.  
+[View the dashboard on Tableau Public](https://public.tableau.com/app/profile/jc.coissard/viz/databel_case_study/DATABELChurnAnalysis)
+
 
 ## Key Insights & Recommendations
-1. **Industry Trends:** IT job postings dominate the market.
-2. **Job Demand:** Data Scientist, Data Engineer, and Data Analyst roles are highly sought after.
-3. **Salary Trends:** Salaries are increasing, especially for experienced professionals.
-4. **Skills:** Tableau is one of the most in-demand tools for analysts.
-
-**Recommendations:**
-- Focus on high-demand job titles like Data Scientist and Data Engineer.
-- Monitor salary trends to stay competitive.
-- Deepen the analysis of high-demand tools like Tableau to refine hiring strategies.
-
----
+- **Monthly Contracts**: Have a churn rate of 40%, indicating a need for intervention.  
+- **Bundled Contracts**: Reduce churn significantly to 6.51%.  
+- **California Region**: Has a churn rate of 63%, suggesting a focused strategy for retention.  
+- **Demographic Impact**: Younger customers (18-25) show the highest churn rates.
 
 ## Next Steps
-1. Expand the analysis to include regional trends.
-2. Explore relationships between experience levels and compensation.
-3. Enhance the dashboard with additional interactivity.
-
----
+- Focus on improving retention in California and for monthly contract holders.  
+- Expand promotional offers for bundled contracts to reduce churn further.  
+- Conduct deeper analysis on customer demographics to create targeted retention strategies.
 
 ## Disclaimer
-The data used in this analysis is fictitious and was created for educational purposes. All intellectual property rights related to the dataset and any associated content belong to DataCamp. This project is shared for educational purposes and personal portfolio development only.
-
+The data used in this analysis is sourced from DataCamp and is used solely for educational purposes. The analysis, insights, and visualizations provided in this repository are created by the author and are not affiliated with or endorsed by DataCamp. All content in this repository, including the methodology and results, is for personal, academic, and professional development purposes only. The intellectual property rights of the original dataset and any associated content belong to DataCamp.
