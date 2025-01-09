@@ -19,11 +19,31 @@ This analysis provides a comprehensive evaluation of the Annecy AeroClub’s per
 4. **What are the key drivers of member engagement, and how can they be enhanced?**
 
 ---
+## Dashboard Interactive
 
+![Dashboard](images/overview.png)
+
+Explore the interactive **Tableau dashboard** for a deeper dive into the customer churn analysis.
+
+---
 ## Fleet Utilization Analysis
+
+
 
 ### Insights
 - **Fleet Distribution**:
+- **Fleet Composition and Utilization :**
+
+- ***8 aircraft divided into 4 categories:***
+
+-2 PS-28 (HSHH/HSHI): Primarily dedicated to training (66%).
+-2 DA-40 (GUVU/HDAF): Versatile aircraft with high utilization.
+-1 DA-40 NG (GNCY): Designed for travel purposes.
+-1 A22 (74AJL): Ultralight aircraft (ULM) used for training.
+-1 XL8 (JITQ), 1 PA-19 (BOMI): For specific purposes.
+
+![repart_ressources.png](images/repart_ressources.png)
+
   - 75% of total flight hours are handled by DA-40 (HDAF, GUVU) and PS-28 aircraft.
   - Underutilized aircraft: XL8 (212 HDV) and BOMI (69 HDV).
 - **Aircraft Roles**:
@@ -66,8 +86,13 @@ This analysis provides a comprehensive evaluation of the Annecy AeroClub’s per
   - Highest activity: July (363 HDV), August (339 HDV).
   - Lowest activity: December (73 HDV), primarily due to adverse weather conditions.
 - **Daily Patterns**:
+- 
+  ![repart_days.png](images/repart_days.png)
+  
   - Saturdays dominate, with minimal activity on Tuesdays.
   - Underused time slots: 12 PM–2 PM.
+  - 
+  ![repart_horaires.png](images/repart_horaires.png)
 
 ### Recommendations
 1. **Optimize Low-Demand Hours**:
@@ -86,6 +111,10 @@ This analysis provides a comprehensive evaluation of the Annecy AeroClub’s per
 - **Revenue**:
   - DA-40 NG generates the highest revenue per flight (€221), while A22 AJL is the least profitable (€93).
 - **Revenue Split**:
+  -Half of the revenue are produced by the DA-40 HDAF and GUVU
+  
+    ![repart_ressources_part.png](images/repart_ressources_part.png)
+  
   - Personal flights: 53% of total revenue.
   - Instruction: 47%, primarily supported by PS-28 aircraft.
 
@@ -156,6 +185,9 @@ This analysis provides a comprehensive evaluation of the Annecy AeroClub’s per
    - Conduct multi-year comparisons to identify long-term trends and areas for improvement.
 4. **Enhanced Data Visualization**:
    - Add geospatial uncovered data to increase flight patterns and destination analysis.
+
+    ![geographical.png](images/geographical.png)
+     
 5. **Predictive Analytics**:
    - Build machine learning models to forecast member activity and operational demand.
 6. **Members Data**
