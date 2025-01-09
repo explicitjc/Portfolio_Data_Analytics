@@ -34,7 +34,7 @@ This project analyzes the operational performance of the Annecy AeroClub in 2024
 - Introduce loyalty programs to increase member retention.
 
 ### Dashboard Evidence
-![Dashboard Sample](dashboard_screenshots/sample_screenshot.png)
+![Dashboard overview](images/overview.png)
 - Full dashboards are available upon request and are subject to confidentiality agreements.
 
 ### Disclaimer
