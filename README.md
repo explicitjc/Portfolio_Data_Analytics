@@ -6,7 +6,7 @@ Welcome to my data analytics portfolio! This repository showcases a collection o
 ## **Table of Contents**
 
 ### **1. Tableau Projects**
-1. [AeroClub Operational Analysis - ACA Annecy]()
+1. [AeroClub Operational Analysis - ACA Annecy](https://github.com/explicitjc/Portfolio_Data_Analytics/tree/main/Tableau/AeroClub_Operational_Analysis_Tableau)
    *Interactive Dashboards analyzing performance, fleet utilization, member activity, financial performance, geographical analysis and month to month metrics.*
    
 3. [Customer Churn Analysis – Databel](https://github.com/explicitjc/Portfolio_Data_Analytics/tree/main/Tableau/Customer_Churn_Analysis_Tableau)  
