@@ -145,6 +145,8 @@ Explore the interactive **Tableau dashboard** for a deeper dive into the custome
    - Projected 2,950 HDV, assuming favorable weather.
 2. **Pessimistic**:
    - Projected 2,750 HDV, accounting for adverse conditions.
+
+![scenario.png](images/scenario.png)
 ---
 
 ## Challenges and Solutions
