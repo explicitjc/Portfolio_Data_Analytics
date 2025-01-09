@@ -6,10 +6,13 @@ Welcome to my data analytics portfolio! This repository showcases a collection o
 ## **Table of Contents**
 
 ### **1. Tableau Projects**
-1. [Customer Churn Analysis – Databel](https://github.com/explicitjc/Portfolio_Data_Analytics/tree/main/Tableau/Customer_Churn_Analysis_Tableau)  
+1. [AeroClub Operational Analysis - ACA Annecy]()
+   *Interactive Dashboards analyzing performance, fleet utilization, member activity, financial performance, geographical analysis and month to month metrics.*
+   
+3. [Customer Churn Analysis – Databel](https://github.com/explicitjc/Portfolio_Data_Analytics/tree/main/Tableau/Customer_Churn_Analysis_Tableau)  
    *Interactive dashboards analyzing customer churn trends, including demographics, contract types, and regional insights.*  
 
-2. [Data Science Job Trends Analysis](https://github.com/explicitjc/Portfolio_Data_Analytics/tree/main/Tableau/DataScience_Job_Trends_Analysis)  
+4. [Data Science Job Trends Analysis](https://github.com/explicitjc/Portfolio_Data_Analytics/tree/main/Tableau/DataScience_Job_Trends_Analysis)  
    *Exploration of job market trends in the data science field, focusing on salaries, skills, and experience levels.*
 
 
