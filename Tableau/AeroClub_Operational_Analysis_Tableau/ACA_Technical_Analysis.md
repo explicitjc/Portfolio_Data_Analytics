@@ -52,13 +52,65 @@ This document provides a detailed breakdown of the technical steps taken to cond
      ```markdown
      Projected_hours = Current_hours - Decline_rate * Remaining_period
      ```
+### Parameters
+- Monthly projected flight hours: `INT 3000/12`
+- Annual projected flight hours: `3000`
 
+## Issues and Solutions
+
+### Update Management
+1. **Issue**: Monthly data updates
+2. **Solution**:
+   - Creation of intermediate data model
+   - Strict field standardization
+   - Automated validation process
+
+### Anomaly Processing
+1. **Non-standard Airfields**
+   - Solution: "Others" categorization in source CSV
+   - Impact: Improved analysis representativeness
+
+### Weather Impact Analysis
+1. **Operating Hours**: 8:00-19:00 (winter period)
+2. **Average Used**: 10 hours/day
+3. **Unavailability Factors**:
+   - 95 rain days/year
+   - ~8 precipitation days/month
+4. **Utilization Scenarios**:
+   - Optimistic: 81% (700 unavailable hours)
+   - Pessimistic: 75% (900 unavailable hours)
+   - Nominal: 78% (800 unavailable hours)
+
+## Technical Recommendations
+
+### Process Optimization
+1. **Data Pipeline**
+   - Live connection implementation
+   - Python CSV preprocessing
+   - Import automation
+
+2. **Maintenance**
+   - Systematic backup before updates
+   - Post-import data validation
+   - Modification documentation
+
+### Suggested Improvements
+1. Optimization of underutilized aircraft usage
+2. Time slot adjustment based on temporal analysis
+3. Development of data-driven promotions
+
+## Additional Notes
+- Complete dashboards available upon request
+- Certain sections redacted for confidentiality
+- Regular update of weather impact calculations recommended
 #### Dashboard Implementation
 - **Tools Used:** Tableau for visualizations.
 - **Steps:**
   1. Imported cleaned datasets.
   2. Created calculated fields for KPIs.
   3. Designed dashboards with filters for interactivity.
+
+
 
 ### Findings
 #### Key Visualizations
