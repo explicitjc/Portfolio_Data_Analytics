@@ -58,6 +58,20 @@ This document provides a detailed breakdown of the technical steps taken to cond
 
 ## Issues and Solutions
 
+### Challenges Encountered
+1. **Data Source Consistency**:
+   - Issues integrating new months due to mismatched column names in CSV files.
+   - Manual adjustments required for schema alignment.
+2. **Limited Automation**:
+   - Updates were manual, increasing the risk of errors.
+
+### Proposed Solutions
+1. **Centralized Data Repository**:
+   - Maintain a structured folder hierarchy for raw and processed data.
+2. **Intermediate Data Model**:
+   - Use tools like Python or Alteryx for preprocessing and schema enforcement.
+3. **Automation**:
+   - Automate data updates with scripts or Tableau live connections.
 ### Update Management
 1. **Issue**: Monthly data updates
 2. **Solution**:
@@ -103,14 +117,13 @@ This document provides a detailed breakdown of the technical steps taken to cond
 - Complete dashboards available upon request
 - Certain sections redacted for confidentiality
 - Regular update of weather impact calculations recommended
+
 #### Dashboard Implementation
 - **Tools Used:** Tableau for visualizations.
 - **Steps:**
   1. Imported cleaned datasets.
   2. Created calculated fields for KPIs.
   3. Designed dashboards with filters for interactivity.
-
-
 
 ### Findings
 #### Key Visualizations
